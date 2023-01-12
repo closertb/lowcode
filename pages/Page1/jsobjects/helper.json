@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tadd: async () => {\t\t\n\t\tstoreValue('count', (appsmith.store.count || 0) + 1);\n\t\treturn appsmith.store.count;\n\t}\n}",
+    "body": "export default {\n\tadd: async () => {\t\t\n\t\tstoreValue('count', (appsmith.store.count || 0) + 1);\n\t\treturn appsmith.store.count;\n\t},\n\treset: () => {\t\t\n\t\tstoreValue('count', 0);\n\t}\n}",
     "variables": [],
     "userPermissions": []
   },
