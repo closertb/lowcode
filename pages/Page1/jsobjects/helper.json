@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "helper",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tadd: async () => {\t\t\n\t\tstoreValue('count', (appsmith.store.count || 0) + 1);\n\t\treturn appsmith.store.count;\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_helper",
+  "deleted": false,
+  "gitSyncId": "63b643445b7acd601d97ff6d_63bfbac696c9042751e5bc27"
+}
